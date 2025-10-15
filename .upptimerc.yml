@@ -61,8 +61,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: durum.evcil.im
-  baseUrl: /websitestatus
+  cname: status.seyitacar.net
+  # baseUrl: /websitestatus
   logoUrl: https://seyitacar.net/wp-content/uploads/2024/01/seyit-acar-ico-light.svg
   name: Websitelerin Durumu - Seyit Acar
   introTitle: "Websitelerin Durumu"
@@ -125,7 +125,7 @@ i18n:
   responseTimeMs: "Yanıt süresi (ms)"
   loading: "Yükleniyor"
   navGitHub: "GitHub"
-  footer: "Bu sayfa [Ben Evcilim](https://evcil.im) projesinin sistem durumlarını takip için tasarlanmıştır."
+  footer: "Bu sayfa kontrolümde olan sitelerin durumlarını takip için tasarlanmıştır."
   rateLimitExceededTitle: "Rate limit exceeded"
   rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website."
   rateLimitExceededWhatDoesErrorMean: "What does this error mean?"
