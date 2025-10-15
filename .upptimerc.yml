@@ -76,7 +76,7 @@ status-website:
     - name: "robots"
       content: "noindex"
   robotsText: "User-agent: * \n Disallow: /"
-  
+  theme: dark
 i18n:
   url: "Link"
   status: "Durum"
