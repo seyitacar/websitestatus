@@ -70,7 +70,6 @@ status-website:
   navbar:
     - title: Sistem Durumu
       href: /
-  theme: light
   favicon: https://seyitacar.net/wp-content/uploads/2024/01/seyit-acar-square.svg
   faviconSvg: https://seyitacar.net/wp-content/uploads/2024/01/seyit-acar-square.svg
   metaTags:
