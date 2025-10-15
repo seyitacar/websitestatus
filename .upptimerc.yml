@@ -1,36 +1,165 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: seyitacar # Your GitHub organization or username, where this repository lives
+repo: websitestatus # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Noords
+    url: https://noords.com.tr/
+  - name: Ghacielle
+    url: https://ghacielle.com/
+  - name: Hendesitezyinat
+    url: https://hendesitezyinat.com/
+  - name: Cutecat
+    url: https://needle.tr/
+  - name: Needle
+    url: https://needle.tr/
+  - name: Uppermind
+    url: https://uppermind.ai/
+  - name: Evcilim
+    url: https://evcil.im/
+  - name: Minihol
+    url: https://minihol.com/
+  - name: Galia Tasarım
+    url: https://galiatasarim.com/
+  - name: Aile Yayınları
+    url: https://aileyayinlari.com/
+  - name: Samist Technic
+    url: https://samistechnic.com/
+  - name: Fovist
+    url: https://fovist.com/
+  - name: Bilmeceler
+    url: https://bilmecelervecevaplari.com.tr/
+  - name: Hikmet Ağacı
+    url: https://hikmetagaci.com/
+  - name: NFA Hukuk Danışmanlık
+    url: https://nfahukukdanismanlik.com/
+  - name: Ideal IDM
+    url: https://idealidm.com/
+  - name: Mobil Yaka
+    url: https://mobilyaka.com/
+  - name: Data Market
+    url: https://www.datamarket.com.tr/
+  - name: Bazen Defter
+    url: https://bazendefter.com/
+  - name: Cepport
+    url: https://cepport.com.tr/
+  - name: Witcher Gelen E-posta
+    url: witcher.mxrouting.net
+    port: 993
     check: "tcp-ping"
-    ipv6: true
+    - name: Witcher Giden E-posta
+    url: witcher.mxrouting.net
+    port: 465
+    check: "tcp-ping"
+    - name: Pixel Gelen E-posta
+    url: pixel.mxrouting.net
+    port: 993
+    check: "tcp-ping"
+    - name: Pixel Giden E-posta
+    url: pixel.mxrouting.net
+    port: 465
+    check: "tcp-ping"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # cname: durum.evcil.im
+  baseUrl: /websitestatus
+  logoUrl: https://seyitacar.net/wp-content/uploads/2024/01/seyit-acar-ico-light.svg
+  name: Websitelerin Durumu - Seyit Acar
+  introTitle: "Websitelerin Durumu"
+  introMessage: Bu sayfa yaptığım websitelerinin anlık sistem durumlarını düzenli olarak takip eder ve çevrimiçi kalma sürelerini grafiklerle gösterir. Kişisel bir projedir.
   navbar:
-    - title: Status
+    - title: Sistem Durumu
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  theme: light
+  favicon: https://seyitacar.net/wp-content/uploads/2024/01/seyit-acar-square.svg
+  faviconSvg: https://seyitacar.net/wp-content/uploads/2024/01/seyit-acar-square.svg
+  metaTags:
+    - name: "robots"
+      content: "noindex"
+  robotsText: "User-agent: * \n Disallow: /"
+  
+i18n:
+  url: "Link"
+  status: "Durum"
+  history: "Geçmiş"
+  responseTime: "Yanıt Süresi"
+  uptime: "Çevrimiçi Süresi"
+  up: "Çevrimiçi"
+  degraded: "Düşük Performans"
+  down: "Kesinti"
+  responseTimeGraphAlt: "Yanıt süresi grafiği"
+  ms: "ms"
+  responseTimeDay: "24 saatlik yanıt süresi"
+  responseTimeWeek: "7 günlük yanıt süresi"
+  responseTimeMonth: "30 günlük yanıt süresi"
+  responseTimeYear: "1 yıllık yanıt süresi"
+  uptimeDay: "24 saatlik çevrimiçi oranı"
+  uptimeWeek: "7 günlük çevrimiçi oranı"
+  uptimeMonth: "30 günlük çevrimiçi oranı"
+  uptimeYear: "1 yıllık çevrimiçi oranı"
+  liveStatusHtmlComment: "<!--live status-->"
+  degradedPerformance: "Düşük Performans"
+  completeOutage: "Kesinti"
+  partialOutage: "Kısmi Kesinti"
+  activeIncidents: "Kesintiler"
+  allSystemsOperational: "Tüm sistemler sorunsuz çalışıyor"
+  incidentReport: "#$NUMBER Numaralı Kesinti Raporu →"
+  activeIncidentSummary: "$DATE tarihinde $POSTS yorumla açıldı"
+  incidentTitle: "Kesinti $NUMBER Detayları"
+  incidentDetails: "Kesinti Detayları"
+  incidentFixed: "Düzeltildi"
+  incidentOngoing: "Üzerinde Çalışılıyor"
+  incidentOpenedAt: "Başlangıç Tarihi"
+  incidentClosedAt: "Bitiş Tarihi"
+  incidentViewOnGitHub: "GitHubda görüntüleyin ve abone olun"
+  incidentCommentSummary: "$DATE tarihinde $AUTHOR tarafından yayınlandı."
+  incidentBack: "← Tüm kesintilere geri dön"
+  pastIncidents: "Geçmiş Kesintiler"
+  pastIncidentsResolved: "$MINUTES dakika içinde $POSTS yorum ile çözüldü"
+  liveStatus: "Anlık Durum"
+  overallUptime: "Toplam Çevrimiçi Süre: $UPTIME"
+  overallUptimeTitle: "Toplam Çevrimiçi Süre"
+  averageResponseTime: "Ortalama Yanıt Süresi: $TIMEms"
+  averageResponseTimeTitle: "Ortalama yanıt süresi"
+  sevelDayResponseTime: "7 günlük yanıt süresi"
+  responseTimeMs: "Yanıt süresi (ms)"
+  loading: "Yükleniyor"
+  navGitHub: "GitHub"
+  footer: "Bu sayfa [Ben Evcilim](https://evcil.im) projesinin sistem durumlarını takip için tasarlanmıştır."
+  rateLimitExceededTitle: "Rate limit exceeded"
+  rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website."
+  rateLimitExceededWhatDoesErrorMean: "What does this error mean?"
+  rateLimitExceededErrorMeaning: "This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed."
+  rateLimitExceededErrorHowCanFix: "How can I fix it?"
+  rateLimitExceededErrorFix: "You can wait for another hour and your IP address' limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour."
+  rateLimitExceededGeneratePAT: "Learn how to generate a Personal Access Token"
+  rateLimitExceededHasSet: "You have a personal access token set."
+  rateLimitExceededRemoveToken: "Remove token"
+  rateLimitExceededGitHubPAT: "GitHub Personal Access Token"
+  rateLimitExceededCopyPastePAT: "Copy and paste your token"
+  rateLimitExceededSaveToken: "Save token"
+  errorTitle: "Bir hata oluştu"
+  errorIntro: "Güncel durum ayrıntılarını almaya çalışırken bir hata oluştu."
+  errorText: "Birkaç dakika sonra tekrar deneyebilirsiniz."
+  errorHome: "Anasayfaya dön"
+  pastScheduledMaintenance: "Geçmiş Planlı Bakımlar"
+  scheduledMaintenance: "Planlanmış Bakım"
+  scheduledMaintenanceSummaryStarted: "$DATE tarihinde $DURATION dakika süreyle başladı"
+  scheduledMaintenanceSummaryStarts: "$DATE saatinde  $DURATION dakika sürecek şekilde bakım başladı"
+  startedAt: "Başlangıç"
+  startsAt: "Başlama Zamanı"
+  duration: "Süre"
+  durationMin: "$DURATION dakika"
+  incidentCompleted: "Tamamlandı"
+  incidentScheduled: "Planlandı"
+  duration24H: "24s"
+  duration7D: "7g"
+  duration30D: "30g"
+  duration1Y: "1y"
+  durationAll: "Tümü"
+  locale: "tr-TR"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
