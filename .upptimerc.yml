@@ -37,6 +37,7 @@ sites:
     url: https://mobilyaka.com/
   - name: Data Market
     url: https://www.datamarket.com.tr/
+    type: globalping
   - name: Bazen Defter
     url: https://bazendefter.com/
   - name: Cepport
