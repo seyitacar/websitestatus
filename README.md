@@ -1,6 +1,5 @@
 This repository contains the open-source uptime monitor and status page, powered by [Upptime](https://github.com/upptime/upptime).
 
-
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)
