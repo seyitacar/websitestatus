@@ -1,4 +1,4 @@
-This repository contains the open-source uptime monitor and status page for [Seyit Acar](https://seyitacar.github.io/websitestatus), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page, powered by [Upptime](https://github.com/upptime/upptime).
 
 
 ## 📄 License
