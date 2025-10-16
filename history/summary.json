@@ -76,18 +76,20 @@
     "url": "https://noords.com.tr/",
     "icon": "https://icons.duckduckgo.com/ip3/noords.com.tr.ico",
     "slug": "noords",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.68%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.68%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.68%",
     "time": 1076,
     "timeDay": 1076,
     "timeWeek": 1076,
     "timeMonth": 1076,
     "timeYear": 1076,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 3
+    }
   },
   {
     "name": "Ghacielle",
@@ -166,72 +168,80 @@
     "url": "https://galiatasarim.com/",
     "icon": "https://icons.duckduckgo.com/ip3/galiatasarim.com.ico",
     "slug": "galia-tasarim",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.73%",
+    "uptimeDay": "99.73%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
     "time": 1069,
     "timeDay": 1069,
     "timeWeek": 1069,
     "timeMonth": 1069,
     "timeYear": 1069,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 3
+    }
   },
   {
     "name": "Samist Technic",
     "url": "https://samistechnic.com/",
     "icon": "https://icons.duckduckgo.com/ip3/samistechnic.com.ico",
     "slug": "samist-technic",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.78%",
+    "uptimeDay": "99.78%",
+    "uptimeWeek": "99.78%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.78%",
     "time": 956,
     "timeDay": 956,
     "timeWeek": 956,
     "timeMonth": 956,
     "timeYear": 956,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 2
+    }
   },
   {
     "name": "Fovist",
     "url": "https://fovist.com/",
     "icon": "https://icons.duckduckgo.com/ip3/fovist.com.ico",
     "slug": "fovist",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.83%",
+    "uptimeDay": "99.83%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.83%",
+    "uptimeYear": "99.83%",
     "time": 1011,
     "timeDay": 1011,
     "timeWeek": 1011,
     "timeMonth": 1011,
     "timeYear": 1011,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 2
+    }
   },
   {
     "name": "Bilmeceler",
     "url": "https://bilmeceler.tr/",
     "icon": "https://icons.duckduckgo.com/ip3/bilmeceler.tr.ico",
     "slug": "bilmeceler",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.88%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.88%",
     "time": 934,
     "timeDay": 934,
     "timeWeek": 934,
     "timeMonth": 934,
     "timeYear": 934,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Hikmet Ağacı",
@@ -256,18 +266,20 @@
     "url": "https://nfahukukdanismanlik.com/",
     "icon": "https://icons.duckduckgo.com/ip3/nfahukukdanismanlik.com.ico",
     "slug": "nfa-hukuk-danismanlik",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.93%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.93%",
     "time": 804,
     "timeDay": 804,
     "timeWeek": 804,
     "timeMonth": 804,
     "timeYear": 804,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "ideal IDM",
@@ -328,18 +340,20 @@
     "url": "https://cepport.com.tr/",
     "icon": "https://icons.duckduckgo.com/ip3/cepport.com.tr.ico",
     "slug": "cepport",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
     "time": 868,
     "timeDay": 868,
     "timeWeek": 868,
     "timeMonth": 868,
     "timeYear": 868,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 0
+    }
   },
   {
     "name": "Witcher Gelen E-posta",
